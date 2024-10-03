@@ -8,8 +8,9 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - 03_manipulation_data_tidyverse.qmd
+    # - summary.qmd
+    # - references.qmd
 
 bibliography: references.bib
 

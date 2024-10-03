@@ -1,0 +1,22 @@
+# Manipulation de données à l'aide du tidyverse
+
+<br>
+
+Installer le {tidyverse} : 
+
+```{r eval=FALSE}
+install.packages("tidyverse")
+```
+
+Charger le {tidyverse} : 
+```{r}
+library(tidyverse)
+```
+
+
+
+See @knuth84 for additional discussion of literate programming.
+
+```{r}
+1 + 1
+```

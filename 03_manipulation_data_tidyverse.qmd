@@ -2,21 +2,26 @@
 
 <br>
 
-Installer le {tidyverse} : 
+Installer le {tidyverse} :
 
 ```{r eval=FALSE}
 install.packages("tidyverse")
 ```
 
-Charger le {tidyverse} : 
+Charger le {tidyverse} :
+
 ```{r}
 library(tidyverse)
 ```
 
+::: callout-important
+## Conflit
 
+Lors du chargement du {tidyverse}, la console affiche un message contenant les informations suivantes :
 
-See @knuth84 for additional discussion of literate programming.
+-   Les packages "attachés" ({dplyr}, {readr}, ...) et leurs versions
 
-```{r}
-1 + 1
-```
+Les conflits
+
+Le package {dplyr} contient une fonction filter(), et le package {stats} contient une fonction portant le même nom.
+:::
